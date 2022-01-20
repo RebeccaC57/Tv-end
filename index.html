@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>End project</title>
+    
+    <!-- include an external style sheet -->
+    <link rel="stylesheet" href="endproject.css">  
+    <link rel="manifest" href="manifest.json" />
+    
+    <!-- include an external JavaScript file -->
+    <script src="endproject.js"></script>
+  </head>
+
+<body>
+	<div class= "navbar">
+		<h3 class= "nav">ShowTown</h3>
+	  <button class= "nav" id="home" onclick="fetchData()">Home</button>
+	  <button id="button" class= "nav" onclick="fetchData()">Search</button>
+	  <input class= "nav" type="text" placeholder="Look up TV Show" id="search" onkeypress="toSearch(event)">
+	</div>
+  <div id="main"></div>
+  <div id = "header"></div>
+  <div id="info"></div>
+  <div id="cast"></div>
+  <div class="bottom">
+	  <div id="crew"></div>
+	  <div id="episode"></div>
+  </div>
+  <div id="lightbox" onclick="closeLightBox()">
+     <div id="message">Hello, please fix me</div>
+  </div>
+</body>
+  
+</html>
